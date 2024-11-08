@@ -69,7 +69,7 @@ animation = "idle"
 moving_direction = "left"
 
 [node name="CapitanEnemigo" parent="Enemies" instance=ExtResource("19_q3xbt")]
-position = Vector2(230, 538)
+position = Vector2(836, 123)
 
 [node name="CollectableObjects" type="Node2D" parent="."]
 

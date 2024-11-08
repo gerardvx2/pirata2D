@@ -14,8 +14,8 @@ extends Node2D
 @onready var _effect_sword := $"../EffectsSword" # Efectos de espada
 
 var gravity = 800 # Gravedad para el personaje (650)
-var velocity = 500 # Velocidad de movimiento en horizontal (100)
-var jump = 205 # Capacidad de salto, entre mayor el número más se puede saltar
+var velocity = 200 # Velocidad de movimiento en horizontal (100)
+var jump = 230 # Capacidad de salto, entre mayor el número más se puede saltar
 # Mapa de movimientos del personaje (220)
 var _movements = {
 	IDLE = "default",
